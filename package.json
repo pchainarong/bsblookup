@@ -1,0 +1,21 @@
+{
+  "name": "pegasus-bsb",
+  "version": "1.0.0",
+  "description": "Pegasus BSB lookup API",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://msstash.morningstar.com/scm/au/pegasusbsblookup.git"
+  },
+  "author": "Morningstar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "body-parser": "^1.17.2",
+    "sqlite3": "^3.1.8"
+  }
+}
