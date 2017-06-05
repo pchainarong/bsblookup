@@ -29,7 +29,13 @@ BSB.csv is from [BSB APCA](http://bsb.apca.com.au/)
 >Docker Run:
 
 `docker build -t bsblookup/0.0.1 .`
+
 `docker run -p 44600:8080 -d bsblookup:0.0.1`
 
+### Test
+
+- http://localhost:44600/bsb
+- http://localhost:44600/bsb/112-112
+
 ## BSB History
-As of June 2017, it's from BSBDirecotryMay17.csv
+As of June 2017, it's from BSBDirectoryFullMay17.csv
